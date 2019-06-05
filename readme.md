@@ -5,7 +5,7 @@ A Stenciljs plugin to insert inline SVGs into components on build time.
 ## Installation
 
 ```bash
-npm install -D stencil-inline-svg
+npm install -D @d0whc3r/stencil-inline-svg
 ```
 
 ## Usage
@@ -54,7 +54,7 @@ import Lambo from '../../assets/img/gallardo.svg';
 })
 export class MyComponent {
   render() {
-    return <div class='svg-container' innerHTML={Lambo} />;
+    return <img src={Lambo} />;
   }
 }
 ```

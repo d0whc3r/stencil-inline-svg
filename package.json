@@ -1,5 +1,5 @@
 {
-  "name": "stencil-inline-svg",
+  "name": "@d0whc3r/stencil-inline-svg",
   "version": "0.0.2",
   "description": "A Stenciljs plugin to insert inline SVGs into components",
   "main": "dist/index.cjs.js",
@@ -26,7 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fabriciomendonca/stencil-inline-svg"
+    "url": "git+https://github.com/d0whc3r/stencil-inline-svg"
   },
   "devDependencies": {
     "@types/jest": "^24.0.6",
